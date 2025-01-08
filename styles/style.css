@@ -190,6 +190,7 @@
 
  .resume {
      margin-top: 100px;
+     margin-bottom: 100px;
  }
 
  .resume-title {
@@ -227,4 +228,43 @@
 
  .resume-container hr {
      width: 500px;
+ }
+
+ .experiance-btn {
+     margin-left: 40%;
+     margin-top: 60px;
+ }
+
+ /* -----footer styles------ */
+
+ footer {
+     padding: 130px 230px;
+     display: flex;
+     gap: 100px;
+ }
+
+ footer p {
+     margin-top: 30px;
+     margin-bottom: 20px;
+ }
+
+ .footer-coloum {
+     width: 50%;
+ }
+
+ .footer-coloum img {
+     margin-right: 20px;
+ }
+
+ footer input[type="text"],
+ footer input[type="email"],
+ footer textarea {
+     height: 64px;
+     border-radius: 5px;
+     background-color: white;
+     display: block;
+     width: 100%;
+     padding: 10px 20px;
+     margin-bottom: 24px;
+     border: none;
  }
